@@ -44,4 +44,4 @@ knitr::kable(mostCitations %>% select(title,cites,year), row.names = F)
 
 ## Acknowledgements
 
-This CV has been created from the [dynamic CV template](https://github.com/JJ/dynamic-academic-cv-template), which is released under the [Affero GPL license](https://www.gnu.org/licenses/agpl-3.0.en.html). Make your own by instantiating the template.
+This CV has been created from [a dynamic academic CV template](https://github.com/JJ/dynamic-academic-cv-template), which is released under the [Affero GPL license](https://www.gnu.org/licenses/agpl-3.0.en.html). Make your own by instantiating the template.
