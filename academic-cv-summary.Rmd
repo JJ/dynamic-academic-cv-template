@@ -1,17 +1,17 @@
 ---
 title: "Research publication summary"
-author: "JJ Merelo, `jmerelo@ugr.es`, [Google Scholar Profile](https://scholar.google.com/citations?hl=es&user=gFxqc64AAAAJ)"
+author: "Your Name Here"
 date: "`r Sys.Date()`"
 output:
   pdf_document: default
 abstract: |
   (Mostly) Automatically generated summary of the academic/publishing curriculum.
-bibliography: bibliography.bib
+myId: gFxqc64AAAAJ
 ---
 
 ```{r setup,echo=FALSE,message=FALSE}
 require(scholar)
-myId <- 'gFxqc64AAAAJ'
+myId <- rmarkdown::metadata$myId
 myProfile <- get_profile(myId)
 myPapers <- get_publications(myId)
 
@@ -21,7 +21,7 @@ His main interests are evolutionary algorithms, neural networks (the topic of hi
 
 Currently, his Google Scholar profile includes `r length(myPapers$title)` papers, with a total of `r myProfile$total_cites` citations, and an `h` number of `r myProfile$h_index`. The number of publications, which includes book chapters, is `r length(myPapers$year)`.
 
-The paper with the most cites is `r myPapers$title[1]` [@jjproteng], with `r myPapers$cites[1]` cites. Evolution of paper citations in history is shown below.
+The paper with the most cites is `r myPapers$title[1]`, with `r myPapers$cites[1]` cites. Evolution of paper citations in history is shown below.
 
 ```{r citation,echo=FALSE,message=FALSE}
 history <- get_citation_history(myId)
