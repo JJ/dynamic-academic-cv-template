@@ -7,6 +7,10 @@ dynamically generate a CV based on publications in the Google Scholar profile.
 
 ## Basic instructions
 
+> These instructions assume that you have a [GitHub](https://github.com)
+account, and have basic knowledge on how to use it, from the web, desktop or
+command line.
+
 1. Click on "Use this template" in the button row above to create a repo with
    this template.
 2. Obtain your Google Scholar profile ID and copy it.
@@ -23,7 +27,7 @@ myId: EmD_lTEAAAAJ
 
 4. Save, commit and push (that will be done automatically for you if you're
    using the web interface)
-   
+
 ```shell
 git commit -am "Use my own ID" && git push
 ```
@@ -35,3 +39,6 @@ git commit -am "Use my own ID" && git push
    `academic-cv`, such as [this one](https://github.com/JJ/dynamic-academic-cv-template/suites/11725063370/artifacts/610441418)
 
 You have any problem, just [raise an issue](https://github.com/JJ/dynamic-academic-cv-template/issues)
+
+## More advanced usage
+
