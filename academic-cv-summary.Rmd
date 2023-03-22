@@ -17,8 +17,6 @@ myPapers <- get_publications(myId)
 
 ```
 
-
-
 Currently, her Google Scholar profile includes `r length(myPapers$title)` papers, with a total of `r myProfile$total_cites` citations, and an `h` number of `r myProfile$h_index`. The number of publications, which includes book chapters, is `r length(myPapers$year)`.
 
 The paper with the most citations is [`r myPapers$title[1]`](`r get_article_scholar_url(myId,myPapers$pubid[1])`), with `r myPapers$cites[1]` cites.
@@ -42,3 +40,7 @@ papers.last5 <- myPapers[ between(myPapers$year,thisYear-5,thisYear), ]
 mostCitations <- head(papers.last5[order(papers.last5$cites, decreasing = T),],5)
 knitr::kable(mostCitations %>% select(title,cites,year), row.names = F)
 ```
+
+## Acknowledgements
+
+This CV has been created from the [dynamic CV template](https://github.com/JJ/dynamic-academic-cv-template), which is released under the [Affero GPL license](https://www.gnu.org/licenses/agpl-3.0.en.html). Make your own by instantiating the template.
