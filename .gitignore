@@ -37,3 +37,10 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# RStudio and others
+.Rbuildignore
+*.Rproj
+
+# LaTeX
+*.pdf
