@@ -52,6 +52,10 @@ or R chunks of [`academic-cv-summary.Rmd`](academic-cv-summary.Rmd) at will; the
 new version will be generated when you push changes to `main`, and thereafter
 every 15 days (or so).
 
+You can also set up your own repo from [one of the
+releases](https://github.com/JJ/dynamic-academic-cv-template/releases),
+customizing every bit, or adding a bibliography file (which, unfortunately,
+can't be easily generated automatically from the profile).
 
 ## LICENSE
 
