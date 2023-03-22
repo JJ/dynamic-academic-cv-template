@@ -39,6 +39,9 @@ git commit -am "Use my own ID" && git push
    `academic-cv`, such as [this
    one](https://github.com/JJ/dynamic-academic-cv-template/suites/11725063370/artifacts/610441418)
 
+> The first run will take north of 10 minutes. The cache will kick in after
+that, resulting in a duration of around 3 minutes.
+
 The curriculum will be also auto-generated every 1st and 15th of every
 month. You'll get an email from GitHub when this happens.
 
