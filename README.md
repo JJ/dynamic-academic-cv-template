@@ -35,10 +35,19 @@ git commit -am "Use my own ID" && git push
 5. Navigate to the last action in the *Actions* menu, the one on top, such as
    [this
    one](https://github.com/JJ/dynamic-academic-cv-template/actions/runs/4487482539). The
-   PDF for your CV will be in a zip file that you can download clicking in
-   `academic-cv`, such as [this one](https://github.com/JJ/dynamic-academic-cv-template/suites/11725063370/artifacts/610441418)
+   PDF and DOCX for your CV will be in a zip file that you can download clicking in
+   `academic-cv`, such as [this
+   one](https://github.com/JJ/dynamic-academic-cv-template/suites/11725063370/artifacts/610441418)
+
+The curriculum will be also auto-generated every 1st and 15th of every
+month. You'll get an email from GitHub when this happens.
 
 You have any problem, just [raise an issue](https://github.com/JJ/dynamic-academic-cv-template/issues)
 
 ## More advanced usage
 
+The installed R packages include the above mentioned `scholar`, as well as
+`ggplot2` for plotting and `dplyr` for processing. You can edit either the text
+or R chunks of [`academic-cv-summary.Rmd`](academic-cv-summary.Rmd) at will; the
+new version will be generated when you push changes to `main`, and thereafter
+every 15 days (or so).
