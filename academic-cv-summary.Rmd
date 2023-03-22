@@ -23,7 +23,7 @@ Currently, her Google Scholar profile includes `r length(myPapers$title)` papers
 
 The paper with the most citations is `r myPapers$title[1]`, with `r myPapers$cites[1]` cites.
 
-Evolution of paper citations in the last few years is shown below.
+Evolution of paper citations during the last few years is shown below.
 
 ```{r citation,echo=FALSE,message=FALSE}
 history <- get_citation_history(myId)
