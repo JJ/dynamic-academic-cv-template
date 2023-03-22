@@ -51,3 +51,8 @@ The installed R packages include the above mentioned `scholar`, as well as
 or R chunks of [`academic-cv-summary.Rmd`](academic-cv-summary.Rmd) at will; the
 new version will be generated when you push changes to `main`, and thereafter
 every 15 days (or so).
+
+
+## LICENSE
+
+This template has been released under the [Affero GPL license](LICENSE)
