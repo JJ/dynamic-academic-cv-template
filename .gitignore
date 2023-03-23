@@ -45,3 +45,6 @@ vignettes/*.pdf
 # LaTeX
 *.pdf
 *.docx
+
+# emacs
+*~
