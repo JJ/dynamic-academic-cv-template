@@ -34,7 +34,7 @@ command line.
 Change also the default pronoun just below. It defaults to `her`
 
     ```yaml
-myPronoun: her
+    myPronoun: her
     ```
 
 5. Save, commit and push (that will be done automatically for you if you're
