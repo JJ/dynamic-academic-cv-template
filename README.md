@@ -25,6 +25,12 @@ command line.
 myId: EmD_lTEAAAAJ
 ```
 
+Change also the default pronoun just below. It defaults to `her`
+
+```yaml
+myPronoun: her
+```
+
 4. Save, commit and push (that will be done automatically for you if you're
    using the web interface)
 

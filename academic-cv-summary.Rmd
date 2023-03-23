@@ -8,6 +8,7 @@ output:
 abstract: |
   (Mostly) Automatically generated summary of the academic/publishing curriculum.
 myId: EmD_lTEAAAAJ
+myPronoun: her
 ---
 
 ```{r setup,echo=FALSE,message=FALSE}
@@ -18,7 +19,7 @@ myPapers <- get_publications(myId)
 
 ```
 
-Currently, her Google Scholar profile includes `r length(myPapers$title)` papers, with a total of `r myProfile$total_cites` citations, and an `h` number of `r myProfile$h_index`. The number of publications, which includes book chapters, is `r length(myPapers$year)`.
+Currently, `r rmarkdown::metadata$myPronoun` Google Scholar profile includes `r length(myPapers$title)` papers, with a total of `r myProfile$total_cites` citations, and an `h` number of `r myProfile$h_index`.
 
 The paper with the most citations is [`r myPapers$title[1]`](`r get_article_scholar_url(myId,myPapers$pubid[1])`), with `r myPapers$cites[1]` cites.
 
