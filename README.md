@@ -13,11 +13,17 @@ command line.
 
 1. Click on "Use this template" in the button row above to create a repo with
    this template.
-2. Obtain your Google Scholar profile ID and copy it.
+2. Change the `author` field to your name
+
+```YAML
+author: "Marie Skłodowska-Curie"
+```
+
+3. Obtain your Google Scholar profile ID and copy it.
 
 ![Google Profile ID](https://raw.githubusercontent.com/JJ/cv/master/img/marie-curie-id.png)
 
-3. Paste that id in the `myId` variable in the YAML preamble to the RMarkdown
+4. Paste that id in the `myId` variable in the YAML preamble to the RMarkdown
    file (don't worry about that if you don't understand, just paste the ID in
    [this line](https://github.com/JJ/dynamic-academic-cv-template/blob/95157f5627223d26d6362a366e963e21e09b252f/academic-cv-summary.Rmd#L9)
 
@@ -31,14 +37,14 @@ Change also the default pronoun just below. It defaults to `her`
 myPronoun: her
 ```
 
-4. Save, commit and push (that will be done automatically for you if you're
+5. Save, commit and push (that will be done automatically for you if you're
    using the web interface)
 
 ```shell
 git commit -am "Use my own ID" && git push
 ```
 
-5. Navigate to the last action in the *Actions* menu, the one on top, such as
+6. Navigate to the last action in the *Actions* menu, the one on top, such as
    [this
    one](https://github.com/JJ/dynamic-academic-cv-template/actions/runs/4487482539). The
    PDF and DOCX for your CV will be in a zip file that you can download clicking in
