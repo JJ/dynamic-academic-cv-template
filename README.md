@@ -25,7 +25,7 @@ command line.
 
 4. Paste that id in the `myId` variable in the YAML preamble to the RMarkdown
    file (don't worry about that if you don't understand, just paste the ID in
-   [this line](https://github.com/JJ/dynamic-academic-cv-template/blob/95157f5627223d26d6362a366e963e21e09b252f/academic-cv-summary.Rmd#L9)
+   [this line](https://github.com/JJ/dynamic-academic-cv-template/blob/95157f5627223d26d6362a366e963e21e09b252f/academic-cv-summary.Rmd#L9))
 
     ```yaml
     myId: EmD_lTEAAAAJ
