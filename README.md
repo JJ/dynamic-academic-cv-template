@@ -19,7 +19,7 @@ command line.
     author: "Marie Skłodowska-Curie"
     ```
 
-3. Obtain your Google Scholar profile ID and copy it.
+3. Obtain your Google Scholar profile ID from the URL of your profile and copy it.
 
     ![Google Profile ID](https://raw.githubusercontent.com/JJ/cv/master/img/marie-curie-id.png)
 
@@ -55,7 +55,9 @@ Change also the default pronoun just below. It defaults to `her`
 that, resulting in a duration of around 3 minutes.
 
 The curriculum will be also auto-generated every 1st and 15th of every
-month. You'll get an email from GitHub when this happens.
+month. You'll get an email from GitHub when this happens. After 60
+days, scheduled actions are disabled, so you will need to make some
+change in the repo to continue generation for other 60 days.
 
 You have any problem, just [raise an issue](https://github.com/JJ/dynamic-academic-cv-template/issues)
 
